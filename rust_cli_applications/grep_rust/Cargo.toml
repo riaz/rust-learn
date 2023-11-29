@@ -1,12 +1,11 @@
 [package]
 name = "grep_rust"
-version = "0.0.1"
+version = "0.1.0"
+edition = "2021"
 authors = ["Riaz Munshi <riaz@appliedllms.com>"]
 license = "MIT OR Apache-2.0"
 description = "A tool to search files"
 readme = "README.md"
-homepage = "https://github.com/riaz/rust-learn"
-repository = "https://github.com/riaz/rust-learn"
 keywords = ["cli", "search", "demo"]
 categories = ["command-line-utilities"]
 
