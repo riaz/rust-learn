@@ -1,0 +1,25 @@
+[package]
+name = "grep_rust"
+version = "0.0.1"
+authors = ["Riaz Munshi <riaz@appliedllms.com>"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/riaz/rust-learn"
+repository = "https://github.com/riaz/rust-learn"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+clap = { version = "4.4.10", features = ["derive"] }
+env_logger = "0.10.1"
+indicatif = "0.17.7"
+log = "0.4.20"
+
+
+[dev-dependecies]
+assert_cmd = "2.0.12"
+predicates = "3.0.4"
