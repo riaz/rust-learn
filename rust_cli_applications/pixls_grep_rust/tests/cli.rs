@@ -10,6 +10,6 @@ fn check_answer_availability() {
 #[test]
 fn find_a_match() {
     let mut result = Vec::new();
-    grep_rust::find_matches("loren ipsum\n sit amen", "loren", &mut result);
+    pixls_grep_rust::find_matches("loren ipsum\n sit amen", "loren", &mut result);
     assert_eq!(result, b"loren ipsum\n");
 }

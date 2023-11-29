@@ -36,7 +36,7 @@ fn main() -> Result<(), Box <dyn std::error::Error>> {
 
     info!("Looking for matches");
 
-    grep_rust::find_matches(&content, &args.pattern, &mut std::io::stdout());
+    pixls_grep_rust::find_matches(&content, &args.pattern, &mut std::io::stdout());
     /*
     for line in content.lines() {
         if line.contains(&args.pattern) {

@@ -1,5 +1,5 @@
 [package]
-name = "grep_rust"
+name = "pixls_grep_rust"
 version = "0.1.0"
 edition = "2021"
 authors = ["Riaz Munshi <riaz@appliedllms.com>"]
