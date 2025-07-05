@@ -11,3 +11,7 @@
     cargo add anyhow
     cargo add log
     cargo add env_logger
+
+# Updating a cargo package
+
+    cargo update anstream 
